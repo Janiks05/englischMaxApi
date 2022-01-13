@@ -1,0 +1,15 @@
+{
+  "name": "englischmaxapi",
+  "version": "1.0.0",
+  "description": "Clemens App API, damit seine App scalable ist",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Janik Smikowski",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
