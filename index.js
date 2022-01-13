@@ -1,10 +1,18 @@
 const app = require('express')()
+const Datastore = require('nedb')
 const PORT = process.env.PORT || 6969
 const cors = require('cors')
+
+const database = new Datastore('database.db')
+database.loadDatabase();
 
 app.use(cors({
     origin: "*"
 }))
+
+app.post('/', (req, res) => {
+    console.log(req.body)
+})
 
 app.get('/', (req, res) => {
     res.json(
