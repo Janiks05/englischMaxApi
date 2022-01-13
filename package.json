@@ -4,7 +4,7 @@
   "description": "Clemens App API, damit seine App scalable ist",
   "main": "index.js",
   "scripts": {
-    "start": "index.js"
+    "start": "nodemon index.js"
   },
   "author": "Janik Smikowski",
   "license": "ISC",
